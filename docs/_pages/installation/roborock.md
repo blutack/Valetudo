@@ -81,8 +81,7 @@ You can now return to the [getting started guide](https://valetudo.cloud/pages/g
 * Are you sure that you're running an OTA-rootable firmware? If not, try doing a full factory reset
 * Distance between WiFi devices is to big. Try putting the robo near your PC.
 * Battery is lower than 20%. Please Charge. Place the Vacuum in the dock.
-
-
+* Your WiFi password has the character ";" in it, you have an S5 and it is running at least firmware 002034 and Valetudo 2023.05.0 (so the UI won't let you connect)? Override the check at your own risk by doing `valetudo-helper-miio raw-command <robot connection options> miIO.config_router '{"ssid": "MySSID", "passwd": "my;pass", "uid": 1337, "cc": "de", "country_domain": "de", "config_type": "app"}'`
 
 ## Vinda <a id="vinda"></a>
 
