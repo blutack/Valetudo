@@ -84,7 +84,6 @@ MiioWifiConfigurationCapability.IS_VALID_PARAMETER = (password) => {
 };
 
 const INVALID_CHARACTERS = [
-    ";",
     "\\",
     "/",
     "#",
